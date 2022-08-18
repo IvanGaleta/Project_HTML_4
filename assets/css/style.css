@@ -1,1 +1,106 @@
- 
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0;
+    font-size: 12px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.header{        
+    background-image: url(../img/header.png);    
+    background-size: cover;    
+    min-width: 50px;   
+    padding: 20vh;
+    opacity: 0.9;
+} 
+.header-h {    
+    font-size: 20px;
+    font-style: bold;
+    color:white;   
+}
+.header-p{
+    padding: 10px;
+    color: white;    
+    margin-bottom: 15px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background: rgb(39, 37, 37);
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 5px;
+    padding: 5px;    
+    margin-top: 20px;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.text-centr, .main-h{    
+    padding: 20px;
+}
+.main-h{
+    font-style: bold;
+    font-size: 20px;
+}
+.flexblock{
+    display: flex;    
+    justify-content:space-around;
+    flex: content;   
+    background-color: rgb(102, 102, 102);
+    padding: 10px 10%;     
+}
+.block{     
+    min-width: 50px;
+    background: white;
+    margin: 10px;      
+}
+.blockimage{
+    width: 100%;   
+}
+.block-h,
+.blocktext{
+    padding: 10px;
+}
+.block-h{
+    font-style: bold;
+    font-size: 16px;    
+}
+.blocktext{ 
+    color: rgb(5, 5, 5);    
+}
+.section-botom{
+    display: flex;   
+    justify-content: space-around;    
+}
+.block-botom-left,
+.block-botom-right {
+    color: white;
+    padding: 20px;
+    width: 50%;
+}
+.amail{    
+    color: white;
+}
+.block-botom-left > h3, p,
+.block-botom-right > h3{
+padding-bottom: 20px;
+}
+.block-botom-left{
+    background: rgb(61, 148, 247);   
+}
+.block-botom-right{
+    background: rgb(102, 102, 102);  
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;   
+    padding: 20px;
+}
+.footer > p > a{    
+    color: rgb(37, 37, 233);
+}
